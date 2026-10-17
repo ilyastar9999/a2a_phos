@@ -1,0 +1,22 @@
+# Virtualenv / Python
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded / generated data (large)
+data/
+*.wav
+*.aiff
+*.mp3
+
+# Training outputs
+runs/
+runs_*.log
+*.log
+
+# Upstream clones (kept for reference only)
+moshi/
+moshi-finetune/
+
+# macOS
+.DS_Store

@@ -1,0 +1,23 @@
+# Core Metal (MLX) stack - measured on an Apple M2 (Python 3.12).
+mlx==0.26.5
+moshi-mlx==0.3.0
+rustymimi==0.4.1
+sentencepiece==0.2.0
+soundfile==0.14.0
+sphn==0.2.1
+
+# Model / data tooling
+huggingface-hub==0.28.1
+numpy==2.2.6
+pandas==3.0.6          # SpeechRu parquet (scripts/prepare_dataset.py)
+pyarrow==26.0.0
+
+# Optional extras
+mlx-whisper==0.4.3     # scripts/transcribe.py (Metal ASR)
+sounddevice==0.5.0     # cli/moshi_ru.py --mic
+fire==0.7.1
+pyyaml==6.0.3
+tqdm==4.70.1
+
+# Only needed for tests/test_delay_equivalence.py (reference implementation)
+torch==2.14.1
