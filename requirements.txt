@@ -1,8 +1,8 @@
 # Core Metal (MLX) stack - measured on an Apple M2 (Python 3.12).
-mlx==0.26.5
+mlx==0.29.4
 moshi-mlx==0.3.0
 rustymimi==0.4.1
-sentencepiece==0.2.0
+sentencepiece==0.2.1
 soundfile==0.14.0
 sphn==0.2.1
 
